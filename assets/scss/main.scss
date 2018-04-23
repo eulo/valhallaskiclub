@@ -48,6 +48,11 @@ $size: 18px;
     text-decoration: none;
   }
 
+  &:active, &:selected {
+    color: #fff;
+    text-decoration: none;
+  }
+
   @media (max-width: 768px) {
     right: 60px;
     top: 60px;
@@ -103,6 +108,22 @@ $size: 18px;
   }
 }
 
+.hotham-logo {
+  display: block;
+  position: absolute;
+  top: 570px;
+  right: 100px;
+  width: 150px;
+
+  @media (max-width: 768px) {
+    right: 40px;
+    top: 400px;
+  }
+
+  @media (max-width: 500px) {
+  }
+}
+
 .small-logo {
   display: block;
   position: absolute;	
@@ -117,7 +138,7 @@ $size: 18px;
   font-size: $size * 1.5;
 
   @media (max-width: 768px) {
-    left: 60px;
+    left: 40px;
     top: 60px;
   }
 

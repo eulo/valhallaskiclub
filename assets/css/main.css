@@ -2398,6 +2398,9 @@
   .btn-book:hover {
     color: #fff;
     text-decoration: none; }
+  .btn-book:active, .btn-book:selected {
+    color: #fff;
+    text-decoration: none; }
   @media (max-width: 768px) {
     .btn-book {
       right: 60px;
@@ -2442,6 +2445,17 @@
       -webkit-animation-iteration-count: 0;
       animation-iteration-count: 0; } }
 
+.hotham-logo {
+  display: block;
+  position: absolute;
+  top: 570px;
+  right: 100px;
+  width: 150px; }
+  @media (max-width: 768px) {
+    .hotham-logo {
+      right: 40px;
+      top: 400px; } }
+
 .small-logo {
   display: block;
   position: absolute;
@@ -2455,7 +2469,7 @@
   font-size: 27px; }
   @media (max-width: 768px) {
     .small-logo {
-      left: 60px;
+      left: 40px;
       top: 60px; } }
   @media (max-width: 500px) {
     .small-logo {

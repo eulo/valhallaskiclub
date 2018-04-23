@@ -4,3 +4,4 @@ Redirect 302 /history.html /
 Redirect 302 /availability.html /#bookings
 Redirect 302 /tour.html /#facilities
 Redirect 302 /contact.html /#bookings
+ErrorDocument 404 /
